@@ -48,8 +48,8 @@ THEN the password is either displayed in an alert or written to the page
 * MIT License
 
 # Links
-* URL of deployed application: 
-* URL of GitHub Repository: 
+* URL of deployed application: https://github.com/alexandriawhite/Password-Generator
+* URL of GitHub Repository: https://alexandriawhite.github.io/Password-Generator/
 
 # 📝 Notes
 * 
