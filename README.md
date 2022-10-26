@@ -10,8 +10,8 @@
 * Notes
 
 ## Description
+In challenge 3 we learned how to modify starter code to create an application that enables employees to generate random passwords based on criteria selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. 
 
-Mini challenge 2 focuses on building a webpage that  holds a collection of CSS snippets. What better way to learn CSS than to build a knowledge base of CSS? This group challenge was completed by Liam Allen, Joon Kim, Trenton Kirchner, and Alexandria White.
 ### User Story 
 ```
 AS AN employee with access to sensitive data
