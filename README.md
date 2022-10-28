@@ -49,8 +49,8 @@ THEN the password is either displayed in an alert or written to the page
 * MIT License
 
 # Links
-* URL of deployed application: https://github.com/alexandriawhite/Password-Generator
-* URL of GitHub Repository: https://alexandriawhite.github.io/Password-Generator/
+* URL of GitHub Repository: https://github.com/alexandriawhite/Password-Generator
+* URL of deployed application: https://alexandriawhite.github.io/Password-Generator/Develop/index.html
 
 # 📝 Notes
 * parseInt takes any string and tries to turn it into a number value
