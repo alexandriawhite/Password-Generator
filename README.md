@@ -58,5 +58,5 @@ THEN the password is either displayed in an alert or written to the page
 * window.confirm displays a dialog with a message that the user either confirms or cancels
 * While true creates a loop that executes a specified statement as long as the test condition evaluates to true
 * textarea element is used to create a text input area of unlimited length
-* Cannot write comments in the textarea section-->
+* Cannot write comments in the textarea section
 * Placeholders show examples types of data that should be entered into a form
