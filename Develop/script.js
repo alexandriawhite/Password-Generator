@@ -1,11 +1,19 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+function randomInt(min,max) {
+return Math.floor(Math.random()*(max - min) + min)
+}
+
+function getRandomItem(list) {
+  return list[randomInt(0, list.length - 1)]
+}
+
 function generatePassword() {
 var userInput = window.prompt("How long do you want your password to be?")  
 var passwordLength = parseInt(userInput)
 
-if (isNaN(userInput)) {
+if (isNaN(passwordLength)) {
   window.alert("That's not a number!")
   return
 } 
@@ -42,6 +50,14 @@ if (userWantsLowercase === true){
 }
 if (userWantsUppercase === true){
   optionsCart.push(uppercaseList)
+}
+
+var generatedPassword = ""
+
+for (var i = 0; i < passwordLength; i++){
+  var randomList = getRandomItem(optionsCart)
+  var randomChar = getRandomItem(randomList)
+  console.log(randomChar)
 }
 
 console.log(optionsCart)
