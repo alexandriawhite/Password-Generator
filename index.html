@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Develop/style.css" />
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1>Password Generator</h1>
       </header>
+      <!--styling for "your secure password" box-->
       <div class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
         <div class="card-body">
-          <textarea
-            readonly
+          <!--textarea element is used to create a text input area of unlimited length-->
+          <!--cannot write comments in the textarea section-->
+          <!--placeholders show examples types of data that should be entered into a form-->
+          <textarea  
+          readonly
             id="password"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
@@ -29,6 +33,7 @@
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <!--JavaScript is linked at the bottom of the page to make the page run faster-->
+    <script src="Develop/script.js"></script>
   </body>
 </html>

@@ -22,14 +22,14 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-
+/*Formatting for header*/
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
-
+/*styling for your secure password box*/
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -53,7 +53,7 @@ header {
 .card-body {
   min-height: 100px;
 }
-
+/*centers generate password button*/
 .card-footer {
   text-align: center;
 }
@@ -71,7 +71,7 @@ header {
   display: block;
   clear: both;
 }
-
+/*styling of generate password button*/
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -96,7 +96,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
+/*format for secure your password box*/
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -117,7 +117,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
+/*format for phone size*/
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -129,7 +129,7 @@ button[disabled] {
     font-size: 1rem;
   }
 }
-
+/*format for small phone screens*/
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;

@@ -41,8 +41,8 @@ THEN the password is either displayed in an alert or written to the page
 
 
 # Screenshot  
-![Input number](./Assets/JS%20enter%20number.PNG)
-![Generated password](./Assets/JS%20generated%20password.PNG)
+![Input number](./Assets/images/JS%20enter%20number.PNG)
+![Generated password](./Assets/images/JS%20generated%20password.PNG)
 
 # License
 
@@ -50,10 +50,13 @@ THEN the password is either displayed in an alert or written to the page
 
 # Links
 * URL of GitHub Repository: https://github.com/alexandriawhite/Password-Generator
-* URL of deployed application: https://alexandriawhite.github.io/Password-Generator/Develop/index.html
+* URL of deployed application: https://alexandriawhite.github.io/Password-Generator/index.html
 
 # 📝 Notes
 * parseInt takes any string and tries to turn it into a number value
 * Best practice is to remove console.log from JS code 
 * window.confirm displays a dialog with a message that the user either confirms or cancels
 * While true creates a loop that executes a specified statement as long as the test condition evaluates to true
+* textarea element is used to create a text input area of unlimited length
+* Cannot write comments in the textarea section-->
+* Placeholders show examples types of data that should be entered into a form
