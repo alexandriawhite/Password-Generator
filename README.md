@@ -41,7 +41,8 @@ THEN the password is either displayed in an alert or written to the page
 
 
 # Screenshot  
-![title of image](image path)
+![Input number](./Assets/JS%20enter%20number.PNG)
+![Generated password](./Assets/JS%20generated%20password.PNG)
 
 # License
 
@@ -52,4 +53,7 @@ THEN the password is either displayed in an alert or written to the page
 * URL of GitHub Repository: https://alexandriawhite.github.io/Password-Generator/
 
 # 📝 Notes
-* 
+* parseInt takes any string and tries to turn it into a number value
+* Best practice is to remove console.log from JS code 
+* window.confirm displays a dialog with a message that the user either confirms or cancels
+* While true creates a loop that executes a specified statement as long as the test condition evaluates to true
