@@ -1,11 +1,12 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+
 function randomInt(min, max) {
 if (!max) {
   max = min
   min = 0
-}  
+}
 var rand = Math.random()
 return Math.floor(min*(1 - rand) + rand*max)
 }
@@ -62,7 +63,7 @@ if (userWantsSymbols === true){
   passwordOptions.push(symbolList)
 }
 if (userWantsLowercase === true){
-  passwordOptions.push(uppercaseList)
+  passwordOptions.push(lowercaseList)
 }
 if (userWantsUppercase === true){
   passwordOptions.push(uppercaseList)
